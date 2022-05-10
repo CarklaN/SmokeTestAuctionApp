@@ -1,0 +1,18 @@
+
+Smoke Test Case 1 - placing bids:
+  Login with valid credentials
+    Open registration form
+    Type First Name
+    Type Last Name
+    Type Email
+    Type password
+    Submit Registration
+  Find item on SHOP page and place bid
+    Open shop page
+    Find item, click on it and open detail product page
+    Place bid - input must be higher than last proposed offer
+    Compare the highest recorded bid with placed bid
+
+Finished in 15.22 seconds (files took 0.32141 seconds to load)
+10 examples, 0 failures
+

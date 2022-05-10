@@ -1,0 +1,30 @@
+
+Smoke Test Case - placing bid:
+  Login with valid credentials
+    Open login page
+    Type email
+    Type password
+    Submit data
+  Open My Account and describe product
+    Open My Account
+    Click on +ADD ITEM
+    Add Product Title
+    Choose Category
+    Choose Subcategory
+    Write Description
+    Upload photos
+    Next button 1
+  Place starting price
+    Place price
+    Next button 2
+  Location and shipping
+    Type Address
+    Type City
+    Type ZIPCODE
+    Choose Country
+    Type Phone Number
+    Submit all data
+
+Finished in 27.08 seconds (files took 3.32 seconds to load)
+20 examples, 0 failures
+
