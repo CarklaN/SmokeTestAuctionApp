@@ -4,7 +4,7 @@ require 'page_elements/page_container'
 class Elements < HomePage
 
 def auction
-    @browser.goto('https://auction-app-react.herokuapp.com/')
+    @browser.goto('http://auction.racun.ninja/')
 end
 
 

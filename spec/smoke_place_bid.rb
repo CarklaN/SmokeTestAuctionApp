@@ -3,12 +3,13 @@ require 'watir'
 require 'helper'
 require 'page_elements/elements'
 require 'shared_context/login_shared'
+require 'shared_context/registration_shared'
 
 describe 'Smoke Test Case 1 - placing bids: ' do
 
     let(:actions) {@main.methods}
 
-    include_context 'Login' , "mark44@gmail.com", "bbb" 
+    include_context 'Registration' , "Mark", "Mark", "mark43@gmail.com", "Mark1234" 
 
     context 'Find item on SHOP page and place bid' do
 
