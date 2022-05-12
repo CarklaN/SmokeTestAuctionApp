@@ -5,7 +5,7 @@ require 'helper'
 
 shared_context 'Registration' do |username, surname, email, password|
 
-  let(:actions) {@main.methods}
+  let(:actions) { @main.methods }
 
   context 'Registraion with valid credentials' do
 

@@ -1,12 +1,10 @@
-require 'rspec'
-require 'watir'
 require 'helper'
 require 'page_elements/elements'
 require 'shared_context/login_shared'
 
 describe 'Smoke Test Case 2 - sell item: ' do
    
-    let(:actions) {@main.methods}
+    let(:actions) { @main.methods }
 
     include_context 'Login' , "mark44@gmail.com", "bbb" 
 

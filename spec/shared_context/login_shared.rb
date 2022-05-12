@@ -6,7 +6,7 @@ require 'page_elements/page_container'
 
 shared_context 'Login' do |email, password|
 
-  let(:actions) {@main.methods}
+  let(:actions) { @main.methods }
 
   context 'Login with valid credentials' do
 
