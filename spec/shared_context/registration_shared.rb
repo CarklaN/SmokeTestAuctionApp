@@ -3,7 +3,12 @@ require 'rspec'
 require 'watir'
 require 'helper'
 
-shared_context 'Registration' do |username, surname, email, password|
+shared_context 'Registration' do |registration_data|
+
+  username = registration_data['username']
+  surname = registration_data['surname']
+  email = registration_data['email']
+  password = registration_data['password']
 
   let(:actions) { @main.methods }
 
